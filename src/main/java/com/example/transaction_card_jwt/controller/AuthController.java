@@ -1,7 +1,7 @@
 package com.example.transaction_card_jwt.controller;
 
 
-import com.example.payload.LoginDto;
+import com.example.transaction_card_jwt.payload.LoginDto;
 import com.example.transaction_card_jwt.security.JwtProvider;
 import com.example.transaction_card_jwt.service.MyAuthService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,4 +1,4 @@
-package com.example.payload;
+package com.example.transaction_card_jwt.payload;
 
 
 import lombok.Data;
